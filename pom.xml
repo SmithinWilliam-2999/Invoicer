@@ -53,6 +53,13 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.blueswen</groupId>
+            <artifactId>customfont-ar</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${pom.basedir}/lib/tajawal.jar</systemPath>
+        </dependency>
     </dependencies>
 
     <build>
